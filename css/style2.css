@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "inter", sans-serif;
+}
+
+body{
+    background-color:#000000;
+}
+#text-color a{
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+nav div a img{
+    width: 40%; 
+}
+
+
+h1{
+    color: #fff;
+    text-align: center;
+    line-height: 4em;
+    font-size: 3em;
+}
+
+.novedades{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.novedades figure{
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.50s ease;
+}
+
+.novedades figure:hover{
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 15px;
+    .basic-black{
+        color: rgba(255, 253, 253, 0.502);
+    }
+}
+
+.novedades figure img{
+    margin-top: 20px;
+}
+
+.novedades figure img{
+    width: 70%;
+}
+
+.basic-black{
+    color: #fff;
+    margin-top: 20px;
+    transition: all 0.50s ease;
+}
+
+figcaption{
+    color: #fff;
+    font-weight: 1000;
+    font-size: 1.3em;
+}
+
+.button{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    transition: all 0.50s ease;
+}
+
+.button:hover{
+    padding: 5px 20px;
+    background: #fff;
+    border-radius: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.container-redes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.logo-instagram{
+    height: auto;
+    width: 4%;
+    color: #fff;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px #fff;
+    transition: .3s ease;   
+}
+
+.logo-whatsapp{
+    height: auto;
+    width: 4%;
+    color: #fff;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px #fff;
+    transition: .3s ease;
+
+}
+
+.logo-mail{
+    height: auto;
+    width: 4%;
+    color: #fff;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 5px 10px #fff;
+    transition: .3s ease;
+
+}
+
+.logo-instagram:hover{
+    background-color: rgb(232, 59, 105);
+    box-shadow: 0 0 15px rgb(232, 59, 105),
+                0 0 45px rgb(232, 59, 105),
+                0 0 75px rgb(232, 59, 105),
+}
+
+.logo-whatsapp:hover{
+    background-color: #5cdb95;
+    box-shadow: 0 0 15px #5cdb95,
+                0 0 45px #5cdb95,
+                0 0 75px #5cdb95,
+}
+
+.logo-mail:hover{
+    background-color: #e1d900;
+    box-shadow: 0 0 15px #e1d900,
+                0 0 45px #e1d900,
+                0 0 75px #e1d900,   
+}
+
+.terminos-condiciones{
+   display: flex;
+   justify-content: flex-end;
+   }
+
+.terminos-condiciones div ul li a{
+    color: #fff;
+    margin-right: 50px;
+}

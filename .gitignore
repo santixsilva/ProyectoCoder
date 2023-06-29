@@ -1,0 +1,8 @@
+*.log
+*.ma
+*.vscode
+*.ia
+node_module/
+fuentes/
+passwords.txt
+envio.php
