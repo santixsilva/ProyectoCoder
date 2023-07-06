@@ -8,12 +8,61 @@
 body{
     background-color:#000000;
 }
-#text-color a{
-    color: #fff;
+
+footer{
+    padding: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer a{
     text-decoration: none;
+}
+
+#nav{
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#logo a{
+    margin-left: 15px;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+#nav-list a{
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 50px;
+}
+
+#search-button button{
+    color: #5cdb95;
+    border:solid 1px #5cdb95;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+}
+
+#search-button button:hover{
+    background-color: #5cdb95;
+    color:black
+}
+
+.nav-item a{
+    transition: all ease 0.25s;
+    border-radius: 15px;
+}
+
+.nav-item a:hover{
+    background-color: #5cdb95;
+    padding: 5px;
+    color: black
 }
 
 
@@ -21,12 +70,35 @@ nav div a img{
     width: 40%; 
 }
 
+#nosotros{
+    border-color: rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.nosotros-text{
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+nav{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    line-height: 4em;
+    font-size: 2.5em;
+}
 
 h1{
     color: #fff;
     text-align: center;
     line-height: 4em;
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 .novedades{
@@ -91,76 +163,36 @@ figcaption{
     cursor: pointer;
 }
 
-.container-redes{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.logo-instagram{
-    height: auto;
-    width: 4%;
+.redes svg{
+    width: 100px;
+    height: 50px;
     color: #fff;
-    margin: 15px;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0px 5px 10px #fff;
-    transition: .3s ease;   
-}
-
-.logo-whatsapp{
-    height: auto;
-    width: 4%;
-    color: #fff;
-    margin: 15px;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0px 5px 10px #fff;
-    transition: .3s ease;
-
-}
-
-.logo-mail{
-    height: auto;
-    width: 4%;
-    color: #fff;
-    margin: 15px;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0px 5px 10px #fff;
-    transition: .3s ease;
-
-}
-
-.logo-instagram:hover{
-    background-color: rgb(232, 59, 105);
-    box-shadow: 0 0 15px rgb(232, 59, 105),
-                0 0 45px rgb(232, 59, 105),
-                0 0 75px rgb(232, 59, 105),
+    transition: all 0.25s ease;
 }
 
 .logo-whatsapp:hover{
-    background-color: #5cdb95;
-    box-shadow: 0 0 15px #5cdb95,
-                0 0 45px #5cdb95,
-                0 0 75px #5cdb95,
+       color: #5cdb95;  
+}
+
+.logo-instagram:hover{
+    color:rgb(229, 12, 171);
 }
 
 .logo-mail:hover{
-    background-color: #e1d900;
-    box-shadow: 0 0 15px #e1d900,
-                0 0 45px #e1d900,
-                0 0 75px #e1d900,   
+    color: rgb(241, 241, 82);;
 }
 
-.terminos-condiciones{
-   display: flex;
-   justify-content: flex-end;
-   }
-
-.terminos-condiciones div ul li a{
+.terminos-condiciones a{
     color: #fff;
-    margin-right: 50px;
+    margin-right: 100px;
 }
+
+#tienda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

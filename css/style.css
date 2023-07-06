@@ -230,7 +230,6 @@ nav ul li a{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 80px repeat(3,300px);
     grid-template-areas: 
-    "buscar-carrito buscar-carrito buscar-carrito"
     "filtros prod1 prod1"
     "filtros prod2 prod2"
     "filtros prod3 prod3"
