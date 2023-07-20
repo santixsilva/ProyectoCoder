@@ -2,6 +2,7 @@
 *.ma
 *.vscode
 *.ia
+*.map
 node_module/
 fuentes/
 passwords.txt
